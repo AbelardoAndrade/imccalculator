@@ -1,0 +1,149 @@
+
+* {
+    border: none;
+   outline: 0;
+}
+
+
+
+header {
+margin-inline: auto;
+padding: 1rem 1rem ;
+max-width: 75rem;
+
+
+background-color: rgba(255, 255, 255, 0.589);
+
+}
+
+.tittle {
+    font-size: 3rem;
+}
+
+.img {
+    width: 5.5rem;
+}
+
+.container-fluid, ul, li {
+    display: flex;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.container {
+    font-size: 1.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+   
+}
+
+
+
+.class {
+text-align: center
+
+}
+
+
+
+main {
+    background-color: rgba(207, 207, 206, 0.699);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+border-radius: 1rem;
+    max-width: 75rem;
+    max-height: 50rem;
+    height: 25rem;
+    margin-inline: auto;
+    margin-top: 0.5rem;
+    padding: 2rem;
+
+}
+
+.question {
+    padding: 1.3rem;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+label {
+    
+    font-size: medium;
+    font-weight: lighter;
+}
+
+input {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 4px;
+}
+
+.doc {
+    max-width: 15rem;
+    max-height: 10rem;
+    padding: 1rem;
+
+    position: absolute;
+    border-radius: 1.2rem;
+    background-color: rgba(71, 71, 71, 0.192);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.doc img {
+    width: 12rem;
+    padding: 0rem;
+    display: flex;
+    margin-inline: auto;
+}
+
+.textdoc {
+    padding: 0;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.textdoc:hover {
+
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+.formulario {
+text-align: center;
+
+}
+
+.button {
+display: flex;
+justify-content: flex-end;
+margin-inline: auto;
+padding: 1.5rem;
+width: 15rem;
+
+}
+
+.buttoncalc {
+   background-color: white;
+color: black;
+font-weight: bold;
+padding: 0.5rem;
+border-radius: 0.5rem;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.buttoncalc:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: gray;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+}
+
+footer {
+    text-align: center;
+    padding: 0.2rem;
+    font-weight: lighter;
+    font-size: smaller;
+    
+};
